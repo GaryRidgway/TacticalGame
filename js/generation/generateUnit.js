@@ -7,9 +7,10 @@
   // 3-400 = the more skill the better character.
 // plusPoints = extra stat points.
   // I would suggest 10 for a balanced character, or more for one that is broken as heck.
-function generateUnit(skill, plusPoints,) {
+function generateUnit(skill, plusPoints, name) {
   this.skill = skill;
   this.plusPoints = plusPoints;
+  this.name = name;
 
   // Create random stats array starting point.
   this.statArray = [13, 14, 12, 12, 10, 8];
@@ -52,22 +53,13 @@ function generateUnit(skill, plusPoints,) {
     this.statArray[stat]--;
   });
 
-  console.log(this.statArray, this.race, this.addAttr, this.subAttr);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // finalize the unit;
+  units[name] = new unit();
+  Object.keys(this.statArray).forEach(function(stat){
+    units[name].setStat(stat, statArray[stat]);
+  });
+  units[name].setRace(this.race);
+  units[name].setName(this.name);
 }
 
 

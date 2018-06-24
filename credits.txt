@@ -1,4 +1,7 @@
--Mozilla Javascript Documentation
+- Mozilla Javascript Documentation
 
--User CoolAJ86 on stack Overflow
+- User CoolAJ86 on stack Overflow
 https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+
+- Users VisioN and H. Pauwelyn
+https://stackoverflow.com/questions/10550158/how-to-push-associative-item-into-array-in-javascript/10550181
