@@ -1,0 +1,4 @@
+-Mozilla Javascript Documentation
+
+-User CoolAJ86 on stack Overflow
+https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
