@@ -5,3 +5,9 @@ https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascrip
 
 - Users VisioN and H. Pauwelyn
 https://stackoverflow.com/questions/10550158/how-to-push-associative-item-into-array-in-javascript/10550181
+
+-Hexagon from Wikipedia
+https://commons.wikimedia.org/wiki/File:Hexagon.svg
+
+- SVG stuff
+https://css-tricks.com/using-svg/

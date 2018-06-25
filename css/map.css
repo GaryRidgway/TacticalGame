@@ -1,0 +1,11 @@
+#map {
+  position: relative;
+}
+
+#map .hexagon {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  stroke: #000;
+  fill: transparent;
+}
